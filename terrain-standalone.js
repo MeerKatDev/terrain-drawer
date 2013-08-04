@@ -58,11 +58,11 @@
       };
     };
     /**
-    * Contains the description of the map
-    *
-    * @class Zone
-    * @constructor
-    */
+     * Contains the description of the map
+     *
+     * @class Zone
+     * @constructor
+     */
     var Zone = function(type, rectangles) {
         this.type = type;
         this.rectangles = rectangles;
@@ -76,15 +76,15 @@
     };
 
     /**
-    * Map of the area
-    *
-    * @function drawMap
-    * @constructor
-    * @param options.width
-    * @param options.height
-    * @param options.tile_size
-    * @param options.scene  <required>
-    */
+     * Map of the area
+     *
+     * @function drawMap
+     * @constructor
+     * @param options.width
+     * @param options.height
+     * @param options.tile_size
+     * @param options.scene  <required>
+     */
     var drawMap = function(options) {
       var options = options || {};
       var width = options.width || 1024;
